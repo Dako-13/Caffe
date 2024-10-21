@@ -1,0 +1,12 @@
+.featuredBlogs{
+    .wrapper{
+        @extend %container;
+        .blog-box{
+            width: 50%;
+            .blog-cover{
+                @include cover(100%);
+                background: rgba(20, 17, 21, 0.81);
+            }
+        }
+    }
+}

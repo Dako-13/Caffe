@@ -1,0 +1,29 @@
+.story{
+    .wrapper{
+        @extend %container;
+        align-items: baseline;
+        .story-block{
+            width: 40%;
+            p{
+                margin: 25px 0 35px;
+            }
+            a{
+                @include font(700,32px);
+                font-family: 'Playfair Display';
+                color: $gold;
+            }
+            .story-card-block{
+                width: 90%;
+                @extend %container;
+                .story-card{
+                    &:first-child{
+                        padding-top: 95px;
+                    }
+                    &:last-child{
+                        padding-bottom: 80px;
+                    }
+                }
+            }
+        }
+    }
+}

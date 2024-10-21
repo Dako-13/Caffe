@@ -1,0 +1,16 @@
+.menu{
+    nav{
+        display: flex;
+        gap: 40px;
+        margin: 145px 0 65px;
+        a{
+            @include font(700,20px);
+            font-family: 'Playfair Display';
+            color: $gray;
+            transition: 0.3s;
+            &:hover{
+                color: $white;
+            }
+        }
+    }
+}
